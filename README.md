@@ -16,6 +16,7 @@ In `./demo/` create a `config.js` file, use `template.config.js` as a model
 
 ## Run
 
+From the root directory of this repository run:
 ```
 $ yarn start
 ```
