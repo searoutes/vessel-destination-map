@@ -93,7 +93,7 @@ class VesselDestinationMap extends LitElement {
   }
 
   _fetchRoute([ fromLongitude, fromLatitude ], [ toLongitude, toLatitude ]) {
-    fetch('https://api.searoutes.com/v2/route'
+    fetch('https://api.v2.searoutes.com/routing/route'
         + `?fromLon=${fromLongitude}&fromLat=${fromLatitude}`
         + `&toLon=${toLongitude}&toLat=${toLatitude}`, {
       headers: {
